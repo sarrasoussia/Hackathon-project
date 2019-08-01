@@ -1,0 +1,112 @@
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left:40px;
+    margin-top: 20px;
+
+}
+.words{
+padding-right: 20px;
+padding-left: 20px;
+font-family: 'Courier New', Courier, monospace; 
+color: white;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+text-shadow: 2px 3px #444343;
+cursor: pointer;
+}
+#para1{
+    color: rgb(116, 116, 70);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+    text-shadow: 2px 3px rgb(223, 219, 219);
+
+}
+#label1{
+    color: rgb(7, 7, 7);
+    font-size:100px;
+    /* transform: translateY(-300px); */
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:-450px;
+    text-shadow: 4px 2px  rgba(3, 3, 3, 0.507); 
+
+ 
+    
+}
+.para2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(231, 231, 231);
+    font-size:20px;
+    text-align: left;
+     border-radius: 5px;
+     background-color: rgba(0, 0, 0, 0.267);
+padding-left: 20px;
+width:400px;
+margin-left: -100px;
+} 
+
+
+.label2 {
+    color: rgb(17, 16, 16);
+    font-size:60px;
+    margin-top: -500px;
+    margin-left:-600px;
+    font-family: 'Courier New', Courier, monospace;
+    text-justify: left;
+}
+.label3{
+    color: rgb(58, 29, 29);
+    text-shadow: 3px 3px rgba(34, 3, 3, 0.582);
+    font-size:95px;
+    margin-top: -500px;
+    margin-right:-120px;
+    margin-left:-30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-justify: left;
+}
+.para3{
+    font-family: 'Courier New', Courier, monospace;
+    color: black(255, 255, 255);
+    font-size:20px;
+    text-align: left;
+     border-radius: 5px;
+     background-color: rgba(5, 5, 5, 0.589);
+padding-left: 20px;
+width:400px;
+margin-right:-100px;
+margin-left: 220px; 
+border-radius:10px;
+} 
+
+
+
+
+.words:hover{
+    text-shadow: 3px 4px #161313;
+
+}
+.img1{
+  height: 110px;
+  width: 120px;
+}
+.wordBys{
+    background-color: #000000be;
+    border-radius: 20px;
+    color: rgba(249, 252, 255, 0.685);
+    height:50px;
+    text-align: center;
+    box-shadow: 3px 3px rgb(0, 0, 0); 
+    display:none;
+ }
+h6{
+    padding-left: 10px;
+    padding-top:5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nanad {
+    opacity: 0;
+}

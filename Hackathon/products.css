@@ -1,0 +1,136 @@
+
+
+body{
+  background-image: url("https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0%;
+  padding: 1cm;
+}
+.prod {
+  color: rgb(204, 172, 130);
+  text-shadow: 2px 3px #63542a;
+  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.products{ 
+padding: 60px;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-right:80px;
+margin-left: 80px; }
+
+.container {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:gray;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.88;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  img{
+      padding-bottom: 40px;
+  }
+
+  .titre {
+    margin-top: 2.5cm;
+    color: rgb(151, 150, 150);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+  }
+
+  .navbar{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left:40px;
+    margin-top: 20px;
+ 
+ }
+ .words{
+ padding-right: 20px;
+ padding-left: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ color: white;
+ font-size: 20px;
+ font-weight: bold;
+ text-decoration: none;
+ text-shadow: 2px 3px #444343;
+ cursor: pointer;
+ }
+
+ 
+  
+ 
+ .words:hover{
+    text-shadow: 3px 4px #020202;
+ 
+ }
+ .img1{
+  height: 110px;
+  width: 120px;
+ }
+ .wordBys{
+    background-color: #000000be;
+    border-radius: 20px;
+    color: rgba(249, 252, 255, 0.685);
+    height:50px;
+    text-align: center;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    display:none;
+ }
+ .img1 {
+  height: 5cm;
+  width: 5cm;
+}  
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin:1cm;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+ 

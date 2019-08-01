@@ -1,0 +1,176 @@
+<html>
+
+<head>
+  <link rel="icon"
+    href="https://www.mallmaverick.com/system/stores/store_fronts/000/045/861/original/Survival_Circle_Logo.png?1548277443">
+  <title> You Shopping Cart</title>
+  <link rel="stylesheet" href="css\panier.css">
+  <script src="jquery-3.4.1.js"></script>
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <!-- nav bar de merde -->
+  <div class="navbar">
+
+    <div>
+      <div class="words">
+        <h1><a href="index.html" class="navv">Home</a></h1>
+      </div>
+
+    </div>
+
+    <div>
+      <div class="words">
+        <h1><a href="product.html" class="navv">Products</a></h1>
+      </div>
+
+    </div>
+
+    <div>
+      <div class="words1">
+        <img class="img1"
+          src="https://www.mallmaverick.com/system/stores/store_fronts/000/045/861/original/Survival_Circle_Logo.png?1548277443">
+      </div>
+
+    </div>
+
+    <div>
+      <div class="words">
+        <h1><a href="contact.html" class="navv">Contact</a></h1>
+      </div>
+
+    </div>
+
+    <div>
+      <div class="words">
+        <h1><a href="panier.html" class="navv">Cart</a></h1>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <br><br>
+
+
+
+
+  <h1>My Shopping Cart</h1>
+
+  <hr>
+
+
+
+  <div class="row">
+    <div class="col-xs-8">
+
+
+      <div class="panel panel-default">
+
+        <div class="panel-heading">
+          Your Products
+        </div>
+
+        <div class="panel-body">
+          <!-- produit lowel -->
+          <div class="col-xs-4">
+            <div class="panel panel-default " id="produit-1">
+              <div class="panel-body text-center">
+
+                <h3>Axe</h3>
+                <img src="res\axe.jpg" class="img-responsive" />
+                <p>This axe is specially made for brave fighters like you. <br>
+                  If you're a pussy, you can still use it in
+                  your garden or as a decoration.. Be creative.</p>
+
+
+                <span class="prix">80,85 TND</span>
+                <a href="#!" class="btn btn-block btn-primary add" data-id="1">
+                  Add
+                </a>
+                <input type="hidden" id="prix-1" value="80.85" />
+
+              </div>
+            </div>
+          </div>
+          <!-- produit li baadou -->
+          <div class="col-xs-4">
+            <div class="panel panel-default" id="produit-2">
+              <div class="panel-body text-center">
+                <h3>Gas Mask</h3>
+                <img src="res\gas mask.jpg" class="img-responsive" />
+                <p>This mask will protect you from any harm, even people's bullshit..</p>
+                <span class="prix">100 TND</span>
+                <a href="#!" class="btn btn-block btn-primary add" data-id="2">
+                  Add
+                </a>
+                <input type="hidden" id="prix-2" value="100" />
+              </div>
+            </div>
+          </div>
+          <!-- produit li baad baadou -->
+          <div class="col-xs-4">
+            <div class="panel panel-default" id="produit-3">
+              <div class="panel-body text-center">
+                <h3>Rope</h3>
+                <img src="res\Rope.jpg" class="img-responsive" />
+                <p>You'll probably make good use of it </p>
+                <span class="prix">15,50 TND</span>
+                <a href="#!" class="btn btn-block btn-primary add" data-id="3">
+                  Add
+                </a>
+                <input type="hidden" id="prix-3" value="15.5" />
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- partie mtaa total -->
+    <div class="col-xs-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          My Cart
+        </div>
+        <div class="panel-body text-left">
+          <div id="cart">
+
+          </div>
+          <a href="#" onclick="alert('TADAAA, successfully ordered')" class="btn btn-success btn-block" id="order">Order
+            !</a>
+
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+</body>
+
+<script src="js\panier.js"> </script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon"
+        href="https://www.mallmaverick.com/system/stores/store_fronts/000/045/861/original/Survival_Circle_Logo.png?1548277443">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <title>Contact</title>
+</head>
+
+<body class="contact">
+    <div class="show-inscri-btn"><i class="fas fa-sign-in-alt"></i> Click here if you feel safe enough to share
+        information</div>
+    <div class="login-box">
+        <div class="hide-inscri-btn"><i class="fas fa-times"></i></div>
+        <img src="res/apo1.jpg" class="photo">
+        <form class="login-form" action="index.html" method="POST">
+            <h1>Welcome</h1>
+            <input class="txtb" type="text" name="" placeholder="Username">
+            <input class="txtb" type="email" name="" placeholder="E-mail">
+            <input class="txtb" type="number" name="" placeholder="Phone Number">
+            <input class="txtb" type="password" name="" placeholder="Password">
+            <input class="inscri-btn" type="submit" name="" value="Sign Up">
+        </form>
+    </div>
+
+    <script type="text/javascript">
+        $(".show-inscri-btn").on("click", function () {
+            $(".login-box").toggleClass("showed");
+        });
+
+        $(".hide-inscri-btn").on("click", function () {
+            $(".login-box").toggleClass("showed");
+        });
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+
+body {
+    margin: 0%;
+    padding: 1cm;
+    background-image: url("https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span.prix {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    display:block;
+  }
+  
+  .img-responsive {
+    /* margin-bottom: 10px; */
+    width: 7cm;
+    height: 6cm;
+  }
+ 
+  .panel-heading {
+      width: 100%;
+      font-size: 40px;
+      margin: 1cm;
+     color: rgb(206, 206, 206);
+     text-shadow: #3a563e5b 3px, 3px;
+     font-family: 'Courier New', Courier, monospace;
+  }
+
+  .row {
+        display: inline-block;
+        justify-content: space-evenly;
+        color: antiquewhite;
+    
+    }
+.col-xs-4 {
+    
+    padding: 0.5cm;
+    color: bisque;
+    
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left:40px;
+    margin-top: 20px;
+ 
+ }
+ .words{
+ padding-right: 20px;
+ padding-left: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ color: white;
+ font-size: 15px;
+ font-weight: bold;
+ text-decoration: none;
+ text-shadow: 2px 3px #6a6a6a;
+ cursor: pointer;
+ }
+ 
+ .img1 {
+     height: 4cm;
+     width: 4cm;
+ }
+
+ h1 {
+     color: rgb(57, 123, 101);
+     text-shadow: 2px 3px #5f6560;
+ }
+ h6 {
+     color: rgb(171, 149, 120);
+ }
+ h3, h2 {
+     color: #8a8484;
+     text-shadow: 2px 3px #3a563e;
+ }
+div {
+    color: rgb(147, 147, 104);
+    text-shadow: 2px 3px #3a563e;
+    
+}

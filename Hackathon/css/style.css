@@ -1,0 +1,183 @@
+*{
+    font-family: "montserrat", sans-serif;
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+/* page contact */
+
+.contact {
+    background: #333;
+}
+
+.login-box {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #89968d,#31354c);
+    transition: 0.4s;
+}
+
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.login-form h1{
+    font-weight: 400;
+    margin-top: 0%;
+}
+
+.txtb {
+    display: block;
+    box-sizing: border-box;
+    width: 240px;
+    background: #312f2f20;
+    border: 1px solid white;
+    padding: 10px 20px;
+    color: white;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.inscri-btn {
+    width: 240px;
+    background: #2c3e50;
+    border: 0;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hide-inscri-btn {
+    color: #000;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+    font-size: 24px;
+    opacity: .7;
+}
+
+.show-inscri-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border: 2px solid;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.showed {
+    left: 0;
+}
+
+.photo {
+    left: -100%;
+    width: 100%;
+    height: 100%;
+}
+
+/* page home */
+
+.header {
+    height: 100px;
+    background: #2c3e50;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.logo {
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+}
+
+.menu {
+    float: right;
+    line-height: 100px;
+}
+
+ .menua {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.show-menu-btn, .hide-menu-btn {
+    transition: 0.4s;
+}
+
+.prodbody {
+    background-image: linear-gradient(45deg, #89968d,#31354c);
+}
+
+.prod {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px rgba(65, 7, 7, 0.452); 
+    
+}
+
+/* nav bar */
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left:40px;
+    margin-top: 20px;
+ }
+
+
+ .words{
+ padding-right: 20px;
+ padding-left: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ color: white;
+ font-size: 30px;
+ font-weight: bold;
+ text-decoration: none;
+ text-shadow: 2px 3px #444343;
+ cursor: pointer;
+ }
+ 
+ .words:hover{
+    text-shadow: 3px 4px #020202;
+ 
+ }
+ .img1{
+  height: 110px;
+  width: 120px;
+ }
+ .wordBys{
+    background-color: #000000be;
+    border-radius: 20px;
+    color: rgba(249, 252, 255, 0.685);
+    height:50px;
+    text-align: center;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    display:none;
+ }
+ 
